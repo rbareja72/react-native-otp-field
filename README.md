@@ -27,7 +27,7 @@ render() {
     <OTPField
       length={5}
       value={'123'}
-      error={'Please fill in completed OTP.'}
+      error={'Please fill in complete OTP.'}
     />
     ...
   };
