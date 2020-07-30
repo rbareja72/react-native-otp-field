@@ -1,5 +1,5 @@
 import React, { useRef, useState, useEffect } from 'react';
-import { View, TextInput, StyleSheet, TouchableWithoutFeedback, Platform, Text } from 'react-native';
+import { View, TextInput, StyleSheet, Pressable, Platform, Text } from 'react-native';
 
 /**
  * A UI component to take OTP input 
@@ -59,7 +59,7 @@ const OTPField = ({ length, value, onChange, textFieldStyle, containerStyle, err
 
   return (
     <View>
-      <TouchableWithoutFeedback onPress={onFieldPress}>
+      <Pressable onPress={onFieldPress}>
         <View style={[styles.row, containerStyle]}>
           {
             refs.map((ref, index) => {
@@ -82,7 +82,7 @@ const OTPField = ({ length, value, onChange, textFieldStyle, containerStyle, err
           }
 
         </View>
-      </TouchableWithoutFeedback>
+      </Pressable>
       {error ? <Text style={styles.error}>{error}</Text> : null}
     </View>
   );
