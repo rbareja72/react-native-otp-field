@@ -1,6 +1,6 @@
 # rn-otp-field
 
-### React Native OTP Field :one: :two: :three: :four: :five:
+### React Native OTP Field   :one:   :two:   :three:   :four:   :five:
 
 A tiny library that works on both android and iOS.
 
