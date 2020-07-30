@@ -44,3 +44,5 @@ render() {
   };
 }
 ```
+
+![Image of OTPField](https://user-images.githubusercontent.com/14236714/88966124-74ea6800-d2c9-11ea-94c8-f2ea57c3c5b0.png)
