@@ -1,0 +1,19 @@
+{
+  "name": "rn-otp-field",
+  "version": "0.0.1",
+  "description": "React Native UI Component to input OTPs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "na"
+  },
+  "keywords": [
+    "rn",
+    "otp"
+  ],
+  "author": "Rahul Bareja",
+  "license": "ISC"
+}
