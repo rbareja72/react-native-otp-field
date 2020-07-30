@@ -5,6 +5,7 @@
 
 A tiny library that works on both android and iOS.
 
+### Props
 Props | Type | Description
 ------|------|------------
 length | Number | OTP length
@@ -17,7 +18,7 @@ errorStyle | Object | style for error container.
 
 Note: It accepts all other props of RN TextField
 
-Usage:
+### Usage:
 
 ```javascript
 import OTPField from 'rn-otp-field';
