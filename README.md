@@ -1,5 +1,7 @@
 # rn-otp-field
-###React Native Otp Field
+
+### React Native Otp Field :one: :two: :three: :four: :five:
+
 A tiny library that works on both android and iOS.
 
 Props | Type | Description
