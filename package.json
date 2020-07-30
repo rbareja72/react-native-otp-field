@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "na"
+    "url": "https://github.com/rbareja72/rn-otp-field.git"
   },
   "keywords": [
     "rn",
     "otp"
   ],
   "author": "Rahul Bareja",
-  "license": "ISC"
+  "license": "MIT"
 }
