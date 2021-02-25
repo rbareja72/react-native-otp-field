@@ -1,7 +1,6 @@
 import * as React from "react";
 import {
   StyleProp,
-  TextInputProps,
   TextStyle,
   ViewStyle
 } from "react-native";
@@ -26,7 +25,7 @@ export interface OTPFieldProps {
   /**
    * Text field style that will be applied to individual text fields
    */
-  textFieldStyle?: StyleProp<TextInputProps>,
+  textFieldStyle?: StyleProp<TextStyle>,
 
   /**
    * Style of text fields container
@@ -48,4 +47,4 @@ export interface OTPFieldProps {
  * A UI component to take OTP input.
  */
 
-declare class OTPField extends React.Component<OTPFieldProps, any> { }
+declare class OTPField extends React.FunctionComponent<OTPFieldProps, any> { }
