@@ -47,4 +47,4 @@ export interface OTPFieldProps {
  * A UI component to take OTP input.
  */
 
-declare class OTPField extends React.FunctionComponent<OTPFieldProps, any> { }
+declare interface OTPField extends React.FunctionComponent<OTPFieldProps> { }
