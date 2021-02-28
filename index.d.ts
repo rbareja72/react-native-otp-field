@@ -47,4 +47,6 @@ export interface OTPFieldProps {
  * A UI component to take OTP input.
  */
 
-declare interface OTPField extends React.FunctionComponent<OTPFieldProps> { }
+declare const OTPField: React.FunctionComponent<OTPFieldProps>
+
+export default OTPField

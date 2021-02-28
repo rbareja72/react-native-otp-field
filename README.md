@@ -1,6 +1,6 @@
 # react-native-otp-field
 
-### React Native OTP Field 
+### React Native OTP Field
 :one: :two: :three: :four: :five:
 
 ### Installation
@@ -30,7 +30,7 @@ Note: It accepts all other props of RN TextField
 ### Usage:
 
 ```javascript
-import OTPField from 'rn-otp-field';
+import OTPField from 'react-native-otp-field';
 
 render() {
   return {
