@@ -2,10 +2,11 @@ import * as React from "react";
 import {
   StyleProp,
   TextStyle,
-  ViewStyle
+  ViewStyle,
+  TextInputProps
 } from "react-native";
 
-export interface OTPFieldProps {
+export interface OTPFieldProps extends TextInputProps {
 
   /**
    * Length of the OTP to be captured.

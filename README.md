@@ -25,7 +25,7 @@ containerStyle | Object | style for text field container.
 error | string | error text to display.
 errorStyle | Object | style for error container.
 
-Note: It accepts all other props of RN TextField
+Note: It accepts all other props of RN TextInput
 
 ### Usage:
 
