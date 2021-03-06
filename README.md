@@ -1,6 +1,6 @@
 # react-native-otp-field
 
-### React Native OTP Field 
+### React Native OTP Field
 :one: :two: :three: :four: :five:
 
 ### Installation
@@ -25,12 +25,12 @@ containerStyle | Object | style for text field container.
 error | string | error text to display.
 errorStyle | Object | style for error container.
 
-Note: It accepts all other props of RN TextField
+Note: It accepts all other props of RN TextInput
 
 ### Usage:
 
 ```javascript
-import OTPField from 'rn-otp-field';
+import OTPField from 'react-native-otp-field';
 
 render() {
   return {

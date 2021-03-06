@@ -12,7 +12,7 @@ import { View, TextInput, StyleSheet, Pressable, Platform, Text } from 'react-na
  * @prop {Object} errorStyle style for error container.
  * other text field props
  */
-const OTPField = ({ length, value, onChange, textFieldStyle, containerStyle, error, errorStyle, ...props }) => {
+const OTPField = ({ length, value, onChange, textFieldStyle, containerStyle, error, errorStyle, autoFocus, ...props }) => {
   const refs = [];
   for (let i = 0; i < length; i++) {
     refs.push(useRef(null));
@@ -74,6 +74,7 @@ const OTPField = ({ length, value, onChange, textFieldStyle, containerStyle, err
                     onChangeText={(value) => onChangeText(value, index)}
                     onSubmitEditing={() => { }}
                     keyboardType={'number-pad'}
+                    autoFocus={autoFocus && index === 0 ? true : false}
                     {...props}
                   />
                 </View>
